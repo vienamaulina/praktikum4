@@ -74,4 +74,19 @@
 
 ![gambar 7](ss/7.png)
 
+# Praktikum
+## Membuat progran sederhana untuk menambahkan data kedalam list dengan rincian sebagai berikut.
+<p>Progam meminta memasukkan data sebanyak-banyaknya (gunakan perulangan)<p>
+<p>Tampilkan pertanyaan untuk menambah data (y/t?), apabila jawaban t (Tidak), maka program akan menampilkan daftar datanya<p>
+<p>Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%, uts: 35%, uas: 35%)<p>
+
+<p> bentuk scriptnya seperti berikut <p>
+
+![gambar 8](ss/8.png)
+<p> kemudian run, masukan nama, nim, nilai tugas, nilai UTS, nilai UAS. kemduain ketik y/t untuk menambahkan data atau tidak. jika mengetik y maka akan mengulang untuk menambahkan data data, tapi jika ketik t maka program langsung menampilkan hasil data serta menghitung nilai akhir. misal seperti berikut data datanya <p>
+
+![gambar 9](ss/9.png)
+
+
+
 
