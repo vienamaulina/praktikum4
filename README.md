@@ -13,20 +13,65 @@
 ![gambar 1](ss/1.png)
 
 # Akses list
-## Tampilkan elemen ke 3
+## Menampilkan elemen ke 3
 <p> program ini untuk menampilkan elemen ketiga. bentuk penulisannya (a[2]). <p> 
 
-## ambil nilai elemen ke 2 sampai elemen ke 4
+## Mengambil nilai elemen ke 2 sampai elemen ke 4
 <p> program ini untuk menampilkan elemen ke 2 sampai ke empat. maka bentuk penulisannya (a[1:4])<p>
 
-## ambil nilai terakhir
-<p> program ini untuk mengambil nilai terakhir dengan bentuk penulisan (a[-1]), tanda minus berati urutan nya dari belakang <p>
+## Mengambil nilai terakhir
+<p> program ini untuk mengambil nilai terakhir dengan bentuk penulisan (a[-1]), tanda minus berati urutan nya dimulai dari belakang <p>
 
 <p> script nya seperti berikut <p>
 
-![gambar 1](ss/1.png)
+![gambar 2](ss/2.png)
 
 <p>maka hasil nya seperti berikut<p>
 
-![gambar 2](ss/5.png)
+![gambar 3](ss/5.png)
+<p> bisa dilihat bahwa 35 adalah elemen ketiga<p>
+<p> 33, 35,37 adalah elemen ke 2 ke 4<p>
+<p> 39 adalah elemen terakhir <p>
+
+# Mengubah elemen list
+## Mengubah elemen ke 4 dengan nilai lainnya
+<p> program list ini adalah mengganti angka pada elemen ke 4 menjadi angka lainnya. misal nya diubah menjadi angka 40. Maka bentuk penulisannya (a[3]=40)<p>
+
+## Mengubah elemen ke 4 sampai dengan elemen terakhir
+<p> elemen ke 4 sampai terakhir adalah angka 37 dan 39, maka diganti dengan angka bebas, misal diganti menjadi angka 42 dan 45. maka bentuk penulisannya (a[3:]=[42,45])<p>
+
+<p> script nya seperti berikut <p>
+
+![gambar 4](ss/3.png)
+<p> maka hasil run seperti berikut <p>
+
+![gambar 5](ss/6.png)
+<p> pada elemen keempat sudah diganti menjadi 40 <p>
+<p> pada elemen keempat sampai terakhir sudah terganti menjadi 42 dan 45 <p>
+
+# Menambah elemen list
+## Mengambil 2 bagian dari list pertama (A) dan jadikan list ke 2 (B)
+<p> Mengambil 2 elemen pertama dan dijadikan list baru/kedua. Bentuk penulisannya (b=a[0:2]<p>
+
+## Menambah list B dengan nilai string
+<p> yaitu menambahkan kata/kalimat pada list yang kedua. misal kata python. bentuk penulisannya b.append('python')
+
+## Menambah list B dengan 3 nilai
+<p> Menambahkan 3 angka terakhir. bentuk penulisannya b.extend([50,55,60])
+
+## Menggabungkan list B dengan list A
+<p> bentuk penulisannya b.extend(a)
+
+##
+<p> append adalah menambahkan elemen ke list<p>
+<p> extend adalah menyatukan list pertama dengan list lain(atau yang lain yang bisa diubah, belum tentu daftar)<p>
+
+<p> bentuk script nya seperti berikut <p>
+
+![gambar 6](ss/4.png)
+
+<p> hasil run nya seperti berikut <p>
+
+![gambar 7](ss/7.png)
+
 
